@@ -20,6 +20,15 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+":hi Folded ctermfg=5 
+":hi Folded ctermbg=3
+" Those commands change fold coloring to yellow bg and pink text
+" Not sure if this works with gvim.
+":hi Folded
+"Folded         xxx term=standout ctermfg=5 ctermbg=3
+
+
+
 " Vimgolf settings 
 set nocompatible " use vim defaults
 set scrolloff=3 " keep 3 lines when scrolling
